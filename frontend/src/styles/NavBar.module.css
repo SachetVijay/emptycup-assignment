@@ -1,0 +1,17 @@
+/* styles/NavBar.module.css */
+
+.navBar {
+  display: flex;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.navItem {
+  padding: auto;
+  margin: auto;
+}
+
+/* Add styles for each nav item if needed */

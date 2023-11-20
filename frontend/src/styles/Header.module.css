@@ -1,0 +1,36 @@
+/* styles/Header.module.css */
+
+.header {
+  display: flex;
+  background-color: white;
+  margin: 0;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  border-bottom: 0.25px solid #d0d0d0;
+}
+
+.logoContainer {
+  margin: auto;
+}
+
+.logoImg {
+  /* Add styles for the logo image if needed */
+}
+
+.companyName {
+  color: #716966;
+  font-family: "Chivo", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.menu {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.dot {
+  /* Add styles for the menu dot image if needed */
+}
