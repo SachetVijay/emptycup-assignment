@@ -17,8 +17,8 @@ const NavBar = () => {
       </div>
       {/* Add other nav items as needed */}
       <div className={styles.navItem}>{/* Add another nav item */}</div>
-      <div className={styles.navItem}>{/* Add another nav item */}</div>
-      <div className={styles.navItem}>{/* Add another nav item */}</div>
+      <div className={styles.navItem}><img src="/images/shortlisted.svg" alt="Location" /></div>
+      <div className={styles.navItem}><img src="/images/sort.svg" alt="Location" /></div>
     </nav>
   );
 };

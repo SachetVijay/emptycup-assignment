@@ -6,11 +6,11 @@
   padding-top: 20px;
   padding-bottom: 15px;
   background: white;
-  border-top: 0.25px solid #d0d0d0;
+  border-top: 0.25px solid #D0D0D0;
 }
 
 .altRect {
-  background-color: #fffcf2;
+  background-color: #FFFCF2;
 }
 
 .leftDetails {
@@ -24,21 +24,29 @@
 .detailName {
   width: 109px;
   height: 21px;
-  font-family: "Chivo", sans-serif;
+  font-family: 'Chivo', sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
 }
 
 .detailRating {
-  margin-top: 3px;
+  /* Group 1 */
+  display: flex;
+  margin-top: 10px;
+}
+.detailRating img{
+  width: 16px;
+  height: 15px;
+  margin-right: 5px;
 }
 
 .detailDescription {
+  /* Passionate team of 4 designers working out of Bangalore with an experience of 4 years. */
   width: 85%;
   height: 32px;
   padding-top: 17px;
-  font-family: "Chivo";
+  font-family: 'Chivo';
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -51,6 +59,7 @@
 }
 
 .keyValue {
+  /* 57 Projects */
   width: 47px;
   height: 37px;
   margin-top: 30px;
@@ -60,14 +69,14 @@
 }
 
 .number {
-  font-family: "Chivo";
+  font-family: 'Chivo';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
 }
 
 .tag {
-  font-family: "Chivo";
+  font-family: 'Chivo';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -78,11 +87,11 @@
   margin-top: 30px;
 }
 
-.contactNumber {
+.cNumber {
   margin: 0;
   padding-bottom: 5px;
   height: 19px;
-  font-family: "Chivo";
+  font-family: 'Chivo';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -90,33 +99,49 @@
   color: #000000;
 }
 
+/* right */
 .rightVertical {
   width: 20%;
 }
 
 .rightContent {
-  border-left: 0.25px solid #d0d0d0;
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-left: 0.25px solid #D0D0D0;
+  /*text-align: right;*/
+  /* padding: auto; */
 }
 
-.rightContainer {
+.rCont {
   padding-top: 5px;
   padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  gap: 10px;
+  cursor: pointer;
 }
-
-.rightContainer img {
-  margin: 0;
+.rCont img {
+  width: 23px;
+  height: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
 }
 
-.rightContainer p {
-  margin: 0;
+.rCont p {
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
-  font-family: "Chivo";
+  font-family: 'Chivo';
   font-style: normal;
   font-weight: 400;
   font-size: 8px;
   line-height: 10px;
-  color: #8d4337;
+  color: #8D4337;
 }

@@ -15,3 +15,17 @@
 }
 
 /* Add styles for each nav item if needed */
+
+/* Nav Bar */
+.nav-bar{
+  display: flex;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.nav-c{
+  padding: auto;
+  margin: auto;
+}
