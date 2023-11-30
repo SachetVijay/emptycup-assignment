@@ -1,14 +1,11 @@
+"use client";
 import React from "react";
-import Header from "../components/Header";
-import NavBar from "../components/NavBar";
-import Details from "../components/Details";
+import Index from "@/components";
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <NavBar />
-      <Details />
+      <Index/>
     </div>
   );
 };
